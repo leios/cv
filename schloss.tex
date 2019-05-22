@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt, a4paper]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage{enumitem}
+\usepackage{multicol}
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf James Schloss} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{Quantum Systems Unit, Okinawa Institute of Science and Technology (OIST)} % Your address
+\moveleft.5\hoffset\centerline{1919-1 Tancha, Onna-son}
+\moveleft.5\hoffset\centerline{Okinawa, Japan 904-0495}
+\moveleft.5\hoffset\centerline{james.schloss@oist.jp}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+\vspace{-6mm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+{\sl Ph.D.} \hfill Ongoing\\
+Okinawa Institute of Science and Technology, Onna-son, Okinawa, JP
+
+{\sl B.Sc.,} Physics \hfill 2014\\
+Auburn University, Auburn, AL, US 
+
+ 
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{RESEARCH EXPERIENCE}
+
+{\sl JSPS fellow, Quantum Systems} \hfill ongoing \\
+Primary Investigator: Thomas Busch, OIST
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developing GPU computing methods to simulate vortex dynamics in superfluid Bose--Einstein condensates
+\end{itemize}
+
+{\sl Research Assistant, Neurobiology Research Unit} \hfill Summer 2015 \\
+Primary Investigator: Jeff Wickens, OIST
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developed an analogue electronic neurosynaptic core for cognitive computing
+\end{itemize}
+
+{\sl Research Assistant, Quantum Systems} \hfill Spring 2015 \\
+Primary Investigator: Thomas Busch, OIST
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Performed the Chopped RAndom Basis (CRAB) optimum control technique on a rotational ring of strongly correlated ultracold atoms
+\end{itemize}
+
+{\sl Research Assistant, Light-Matter Interaction} \hfill Fall 2014 \\
+Primary Investigator: S\'ile Nic Chormaic, OIST
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Investigated particle trapping in plasmonic nano-aperture arrays
+\end{itemize}
+
+{\sl Los Alamos Computational Physics Student Summer Workshop} \hfill Summer 2014 \\
+Primary Investigator: Jerome Daligault, Los Alamos National Labs
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developed ``Visualization with Blender of One-Component Plasma and Thomas-Fermi Molecular Dynamics Simulations" (VBOTS)
+\end{itemize}
+
+{\sl Research Assistant, Plasma Physics} \hfill Summer 2012 -- Summer 2014 \\
+Primary Investigator: Edward Thomas, Auburn University
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developed for the ``Dynamic Exploration of Microparticle clouds Optimized Numerically" (DEMON) simulation code
+\end{itemize}
+
+{\sl Research Assistant, Plasma Physics} \hfill Summer 2012 -- Summer 2014\\
+Primary Investigators: Stuart Loch and Connor Ballance, Auburn University
+\begin{itemize} [label = {}]
+\item Performed Monte Carlo simulations of ions and electrons in plasma systems
+\end{itemize} 
+
+{\sl Research Assistant, Psychology} \hfill Fall 2011 -- Spring 2012\\
+Primary Investigator: Tracy Witte
+
+\begin{itemize} [label = {}]
+\item Studied pain tolerance in patients contemplating suicide
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{TEACHING EXPERIENCE}
+
+{\sl Technical Seminars, OIST} \hfill{2014-2019}
+\begin{itemize}[label = {}]
+\item Instructed a number of short, intensive classes on a range of technical topics, including: Programming with python, Data structures and algorithms, Git, Fourier Transforms, Filmmaking for Scientists, Julia, Terminal, GPGPU computing, gnuplot, and bioinformatics.
+\end{itemize}
+
+{\sl Teaching Assistant, Physics} \hfill Spring 2013 - Spring 2014 
+\begin{itemize}[label = {}]
+\item Instructed laboratory sessions for general physics (PHYS 1000) and trigonometry-based physics II (PHYS 1510) at Auburn University.
+\end{itemize} 
+
+\section{ACADEMIC WORKS}
+
+{\sl \textbf{Papers:} } \\
+ \textit{Non-adiabatic generation of NOON states in a Tonks-Girardeau gas} \\
+  J. Schloss, A. Benseny, J. Gillet, J. Swain, Th. Busch \\
+  New Journal of Physics 18 (3), 035012
+  
+  \textit{GPUE: Graphics Processing Unit Gross--Pitaevskii Equation solver} \\
+  J Schloss, LJ O'Riordan \\
+  Journal of Open Source Software 3 (32), 1037
+  
+  \textit{Chaotic few-body vortex dynamics in rotating Bose-Einstein condensates} \\
+  T Zhang, J Schloss, A Thomasen, LJ O'Riordan, T Busch, A White
+  Physical Review Fluids 4 (5), 054701
+ 
+ {\sl \textbf{Awards, Grants, and Fellowships:}} \\
+ JSPS KAKENHI Grants-in-aid, JP17J01488 \hfill 2017-2019 \\
+ JSPS DC1 Research Fellowship for Young Scientists \hfill 2017-2019\\
+ Auburn University Physics Department Undergraduate Research Award \hfill 2014
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PROFESSIONAL SKILLS} 
+
+
+{\sl \textbf{Languages \& Software:}} 
+C++, CUDA, Fortran, Python, Julia, OpenGL, Linux  \\
+
+{\sl \textbf{Software projects:}} \\
+Algorithm Archive: www.algorithm-archive.org/ \\
+GPUE, OIST: github.com/GPUE-group/GPUE \\
+DEMON simulation code, Auburn University: github.com/AU-PSL/demonsimulationcode \\
+VBOTS visualization, Los Alamos National Labs. \\
+
+\section{PUBLIC WORKS}
+
+Arcane Algorithm Archive: algorithm-archive.org \\
+Leiosos, youtube: youtube.com/user/leiosos \\
+simuleios, twitch: twitch.tv/simuleios \\
+Loachapoka Elementary science demonstrations, Auburn. \\
+OIST high school talks.\\
+
+{\sl Additional details:} \\
+President of Computer Science Club at OIST \\
+Communications officer, OIST Student Council (2017) \\
+IT officer, OIST Student Council (2018)
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
+

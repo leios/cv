@@ -1,2 +1,2 @@
 # cv
-A simple CV
+A simple CV for James Schloss (Leios)
