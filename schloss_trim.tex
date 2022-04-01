@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt, a4paper]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage{enumitem}
+\usepackage{multicol}
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf James Schloss} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{Leios Labs LLC} % Your address
+\moveleft.5\hoffset\centerline{jrs.schloss@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+\vspace{-6mm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+{\sl Ph.D.} \hfill 2019\\
+Okinawa Institute of Science and Technology, Onna-son, Okinawa, JP
+
+ 
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{RESEARCH EXPERIENCE}
+
+{\sl CEO} \hfill ongoing \\
+LeiosLabs LLC
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Open research related to heterogeneous computing, computer graphics, and computational science
+\end{itemize}
+
+{\sl Postdoctoral Fellow} \hfill 2020-2021 \\
+Primary Investigator: Raffaele Ferrari, MIT
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developing Heterogeneous computing methods (CPU + GPGPU) for the Climate Machine (CLIMA) project in collaboration with MIT, CalTech, and NPS
+\end{itemize}
+
+{\sl JSPS fellow, Quantum Systems} \hfill 2014-2019 \\
+Primary Investigator: Thomas Busch, OIST
+
+\begin{itemize}[label = {}] \itemsep -2pt % Reduce space between items
+\item Developing GPU computing methods to simulate vortex dynamics in superfluid Bose--Einstein condensates
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{SELECTED ACADEMIC WORKS}
+
+{\sl \textbf{Papers:} } \\
+  \textit{Uncertainty Quantification of Ocean Parameterizations: Application to the K-Profile-Parameterization for Penetrative Convection} \\
+  Andre Nogueira Souza, GL Wagner, Ali Ramadhan, B Allen, V Churavy, James Schloss, J Campin, Chris Hill, Alan Edelman, John Marshall, G Flierl, Raffaele Ferrari \\
+  Journal of Advances in Modeling Earth Systems 12 (12), e2020MS002108
+  
+  \textit{GPUE: Graphics Processing Unit Gross--Pitaevskii Equation solver} \\
+  J Schloss, LJ O'Riordan \\
+  Journal of Open Source Software 3 (32), 1037
+  
+  \textit{Chaotic few-body vortex dynamics in rotating Bose-Einstein condensates} \\
+  T Zhang, J Schloss, A Thomasen, LJ O'Riordan, T Busch, A White
+  Physical Review Fluids 4 (5), 054701
+ 
+ {\sl \textbf{Awards, Grants, and Fellowships:}} \\
+ JSPS KAKENHI Grants-in-aid, JP17J01488 \hfill 2017-2019 \\
+ JSPS DC1 Research Fellowship for Young Scientists \hfill 2017-2019\\
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PROFESSIONAL SKILLS} 
+
+{\sl \textbf{Languages \& Software:}} 
+Julia, C++, CUDA, Fortran, Python, OpenGL, Linux  \\
+{\sl \textbf{Selected projects:}} \\
+Algorithm Archive: www.algorithm-archive.org/ \\
+KernelAbstractions, MIT: https://juliagpu.github.io/KernelAbstractions.jl/stable/\\
+GPUE, OIST: github.com/GPUE-group/GPUE \\
+DEMON simulation code, Auburn University: github.com/AU-PSL/demonsimulationcode \\
+VBOTS visualization, Los Alamos National Labs. \\
+LeiosLabs: youtube.com/user/leiosos, twitch.tv/simuleios
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
+
